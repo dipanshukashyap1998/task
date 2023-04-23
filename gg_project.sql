@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2023 at 03:39 PM
+-- Generation Time: Apr 23, 2023 at 03:56 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -34,16 +34,6 @@ CREATE TABLE `product` (
   `product_detail` varchar(100) NOT NULL,
   `product_image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `product`
---
-
-INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_detail`, `product_image`) VALUES
-(6, 'G-Shock Watch', 2800, 'G-Shock Watch ', 'watch.png'),
-(8, 'Bata Shoes', 1400, 'Awesome', 'bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg'),
-(11, 'Bracelet', 1495, 'bracelet for men', 'bracelet.jpg'),
-(12, 'Mens Tshirt', 1220, 'Tshirt for Men', 'shirt.jpg');
 
 -- --------------------------------------------------------
 
@@ -94,7 +84,7 @@ ALTER TABLE `usertable`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `usertable`
